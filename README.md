@@ -35,8 +35,8 @@ print(chk_input_form([1, 2, 3]))     # list:list-3
 
 ## Authors
 
-- Sajit Jose <sajitjos@gmail.com>
-- Jenfer Sajit <jenifersajit@gmail.com>
+- Sajit Jose: <sajitjos@gmail.com>
+- Jenfer Sajit: <jenifersajit@gmail.com>
 
 ## License
 
