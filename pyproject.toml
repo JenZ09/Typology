@@ -1,0 +1,22 @@
+[project]
+name = "inputclassifier"
+version = "1.0.0"
+description = "A Python utility to classify and evaluate string and non-string inputs by type and structure."
+authors = [
+    {name = "Sajit Jose", email = "sajitjos@gmail.com"},
+    {name = "Jenfer Sajit", email = "jenifersajit@gmail.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
