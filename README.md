@@ -1,6 +1,6 @@
-# chk_input_form
+# inputclassifier
 
-`chk_input_form` is a Python utility that analyzes and classifies any given input into its data type and structure. It supports a wide range of values, including strings, numbers, booleans, None, NaN, complex numbers, and data containers like lists, tuples, and dictionaries.
+`inputclassifier` is a Python utility that analyzes and classifies any given input into its data type and structure. It supports a wide range of values, including strings, numbers, booleans, None, NaN, complex numbers, and data containers like lists, tuples, and dictionaries.
 
 ## Features
 
@@ -19,18 +19,18 @@ pip install chk-input-form
 ## Usage
 
 ```python
-from chk_input_form import chk_input_form
+from inputclassifier import inputclassifier
 
-result = chk_input_form("  3.14  ")
+result = inputclassifier("  3.14  ")
 print(result)  # str:float
 ```
 
 Or try with other types:
 
 ```python
-print(chk_input_form(123))           # int:int
-print(chk_input_form(float('nan')))  # float:float-nan
-print(chk_input_form([1, 2, 3]))     # list:list-3
+print(inputclassifier(123))           # int:int
+print(inputclassifier(float('nan')))  # float:float-nan
+print(inputclassifier([1, 2, 3]))     # list:list-3
 ```
 
 ## Authors
